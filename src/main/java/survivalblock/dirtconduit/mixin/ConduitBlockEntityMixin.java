@@ -3,7 +3,7 @@ package survivalblock.dirtconduit.mixin;
 import com.google.common.collect.Iterables;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.ConduitBlockEntity;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registries;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Mutable;
@@ -15,6 +15,6 @@ public class ConduitBlockEntityMixin {
 	private static Block[] ACTIVATING_BLOCKS;
 
 	static {
-        ACTIVATING_BLOCKS = Iterables.toArray(Registry.BLOCK, Block.class);
+        ACTIVATING_BLOCKS = Iterables.toArray(Registries.BLOCK, Block.class);
 	}
 }
