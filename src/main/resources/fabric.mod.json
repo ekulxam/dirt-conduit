@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "dirt_conduit",
+	"version": "${version}",
+	"name": "Dirt Conduit",
+	"description": "Removes the Prismarine Block restriction from conduits",
+	"authors": [
+		"Survivalblock"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT-0",
+	"icon": "assets/dirt_conduit/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"survivalblock.dirtconduit.DirtConduit"
+		]
+	},
+	"mixins": [
+		"dirt_conduit.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": ">=1.14.4 <=1.19.2",
+		"java": ">=8"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
