@@ -8,8 +8,9 @@
 		"Survivalblock"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/dirt-conduit",
+		"sources": "https://github.com/ekulxam/dirt-conduit",
+		"issues": "https://github.com/ekulxam/dirt-conduit/issues"
 	},
 	"license": "MIT-0",
 	"icon": "assets/dirt_conduit/icon.png",
