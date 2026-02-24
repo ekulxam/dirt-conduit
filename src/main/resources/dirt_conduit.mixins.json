@@ -1,14 +1,15 @@
 {
-	"required": true,
-	"package": "survivalblock.dirtconduit.mixin",
-	"compatibilityLevel": "JAVA_8",
-    "mixinextras": {
-      "minVersion": "0.5.3"
-    },
-	"mixins": [
-		"ConduitBlockEntityMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "survivalblock.dirtconduit.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixinextras": {
+    "minVersion": "0.5.3"
+  },
+  "mixins": [
+    "BlockMixin",
+    "ConduitBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
