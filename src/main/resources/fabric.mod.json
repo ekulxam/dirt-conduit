@@ -15,11 +15,6 @@
 	"license": "MIT-0",
 	"icon": "assets/dirt_conduit/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"survivalblock.dirtconduit.DirtConduit"
-		]
-	},
 	"mixins": [
 		"dirt_conduit.mixins.json"
 	],
@@ -27,8 +22,5 @@
 		"fabricloader": ">=0.15.0",
 		"minecraft": ">=1.14.4",
 		"java": ">=8"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
